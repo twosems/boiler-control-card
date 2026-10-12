@@ -26,3 +26,7 @@ show_diagnostics: false
 `view: compact` shows the dashboard widget with temperatures and primary controls. `view: full` opens the full boiler control panel.
 
 For a single MQTT boiler no entity IDs need to be configured manually. The card follows Home Assistant theme variables and adapts to desktop/mobile widths.
+
+## Development continuity
+
+Read [AGENTS.md](AGENTS.md) and [context](docs/CONTEXT.md). The canonical firmware/version/recovery record is in [ha-boiler-bridge](https://github.com/twosems/ha-boiler-bridge/blob/main/docs/RECOVERY.md). Archived DE mirrors in `snapshots/` are historical evidence; this archive does not replace the HACS root card or deploy to Home Assistant.
