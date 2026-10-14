@@ -19,3 +19,5 @@ jobs:
         run: node --check boiler-control-card.js
       - name: Check Shnek Control Card
         run: node --check shnek-control-card.js
+      - name: Check Shnek daily extension
+        run: node --check shnek-control-card-daily.js
