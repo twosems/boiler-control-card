@@ -2,3 +2,4 @@ import './boiler-control-card.js';
 import './shnek-control-card.js';
 import './shnek-control-card-daily.js';
 import './shnek-control-card-rate.js';
+import './baxi-gas-card.js';
