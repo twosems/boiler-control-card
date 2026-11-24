@@ -2,12 +2,13 @@
 
 Responsive Lovelace cards for the ESP32 boiler controller and boiler auger monitoring.
 
-This HACS Dashboard repository contains two cards:
+This HACS Dashboard repository contains three cards:
 
 - `custom:boiler-control-card` — boiler telemetry and controls.
 - `custom:shnek-control-card` — compact auger activity, runtime and estimated coal consumption.
+- `custom:baxi-gas-card` — [газовый счётчик, мощность котла и стоимость](docs/BAXI-GAS.md).
 
-HACS downloads all JavaScript files from the repository root, so both cards are distributed by the same Dashboard repository.
+HACS downloads all JavaScript files from the repository root, so the cards are distributed by the same Dashboard repository.
 
 ## Installation with HACS
 
@@ -68,7 +69,7 @@ The current `3.0 kg/min` value used in the office configuration is an engineerin
 
 Installing the card through HACS only installs the frontend. The target Home Assistant must also have access to the auger state/history entities. If the auger exists on another Home Assistant, mirror or otherwise expose those entities first, then point the card configuration at the local mirrored entity IDs.
 
-Both cards follow Home Assistant theme variables and adapt to desktop/mobile widths.
+The cards follow Home Assistant theme variables and adapt to desktop/mobile widths.
 
 ## Development continuity
 

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Baxi gas ledger",
+        "description": "You can start entering meter readings now. Add the boiler's heat output sensor to collect energy for calibration.",
+        "data": {"power":"Heat output (kW or W)","flame":"Burner","outdoor":"Outdoor temperature","indoor":"Indoor temperature","setpoint":"Boiler setpoint","modulation":"Modulation"}
+      },
+      "reconfigure": {
+        "title": "Change telemetry sources",
+        "data": {"power":"Heat output (kW or W)","flame":"Burner","outdoor":"Outdoor temperature","indoor":"Indoor temperature","setpoint":"Boiler setpoint","modulation":"Modulation"}
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "The gas ledger is already configured.",
+      "reconfigure_successful": "Sources updated."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "baxi_gas",
+  "name": "Газ и котёл Baxi",
+  "version": "0.1.0",
+  "codeowners": ["@twosems"],
+  "config_flow": true,
+  "documentation": "https://github.com/twosems/boiler-control-card/blob/main/docs/BAXI-GAS.md",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "requirements": []
+}
